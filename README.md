@@ -12,6 +12,10 @@
 - **CBSE - XII Science** - Jawahar Navodaya Vidyalaya, Nizampur-Raigad (April 2018 -- May 2019)
   - Percentage: 69.6%
   - Raigad, Maharashtra
+ 
+- **CBSE - X** - Jawahar Navodaya Vidyalaya, Nizampur-Raigad (May 2017)
+  - Percentage: 86.2%
+  - Raigad, Maharashtra
 
 ## EXPERIENCE
 
