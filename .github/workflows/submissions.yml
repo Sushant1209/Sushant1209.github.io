@@ -3,7 +3,7 @@ name: Process and Update Submissions
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   process:
