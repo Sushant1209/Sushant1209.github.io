@@ -3,15 +3,15 @@ name: Process and Update Submissions
 on:
   push:
     branches:
-      - master
-
-permissions:
-  contents: write
-  workflows: read
+      - main
 
 jobs:
   process:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      workflows: read
 
     steps:
     - name: Checkout repository
