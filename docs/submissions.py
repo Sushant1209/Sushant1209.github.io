@@ -3,8 +3,8 @@
 import re
 
 def convert_table_links():
-    input_file = 'submissions.md'
-    output_file = 'submissions.md'
+    input_file = 'docs/submissions.md'
+    output_file = 'docs/submissions.md'
 
     with open(input_file, 'r') as f:
         content = f.read()
