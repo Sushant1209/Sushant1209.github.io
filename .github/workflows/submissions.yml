@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - master
-    # Optionally, trigger on pull request merge
-    # pull_request:
-    #   types: [closed]
-    #   branches:
-    #     - main
+  workflow_dispatch:
 
 jobs:
   process:
@@ -31,13 +27,15 @@ jobs:
 
     - name: Run script
       run: |
-        python submission.py
+        python your_script_name.py
       # Ensure your script is named correctly and located in the root directory
 
     - name: Commit changes
       run: |
-        git config --local user.email "sushantbagul074@gmail.com
+        git config --local user.email "sushantbagul074@gmail.com"
         git config --local user.name "Sushant1209"
         git add submissions.md
         git commit -m "Update submissions.md with processed links"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
