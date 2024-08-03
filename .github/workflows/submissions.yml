@@ -23,7 +23,7 @@ jobs:
 
     - name: Run submission processing script
       run: |
-        python submission.py
+        python docs/submission.py
 
     - name: Configure Git
       run: |
@@ -32,7 +32,7 @@ jobs:
 
     - name: Commit changes
       run: |
-        git add submissions.md
+        git add docs/submissions.md
         git commit -m "Update submissions.md with processed links" || echo "No changes to commit"
         git push
       env:
