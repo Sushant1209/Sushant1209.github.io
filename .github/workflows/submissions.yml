@@ -3,7 +3,7 @@ name: Process Markdown
 on:
   push:
     branches:
-      - main
+      - master
     # Optionally, trigger on pull request merge
     # pull_request:
     #   types: [closed]
