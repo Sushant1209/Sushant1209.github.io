@@ -27,7 +27,7 @@ jobs:
 
     - name: Run submission processing script
       run: |
-        python docs/submission.py
+        python docs/submissions.py
 
     - name: Configure Git
       run: |
